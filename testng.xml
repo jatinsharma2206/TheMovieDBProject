@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression TestSuite">
+	<test name="Test 1">
+		<classes>
+			<class name="com.themoviedb.movietest.Find_Movie_ExternalID_Test"></class>
+			<class name="com.themoviedb.movietest.Get_Details_Test"></class>
+			<class name="com.themoviedb.movietest.Get_Post_Delete_Rating_Test"></class>
+			<class name="com.themoviedb.movietest.Neg_Case_SessionID_For_Delete_Test"></class>
+			<class name="com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test"></class>
+			<class name="com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test"></class>
+			<class name="com.themoviedb.movietest.Post_Call_Movie_Rating_Test"></class>
+			<class name="com.themoviedb.movietest.Validate_Network_with_id_Test"></class>
+			<class name="com.themoviedb.movietest.Validate_People_Details_Test"></class>
+			<class name="com.themoviedb.movietest.Validate_Trending_Test"></class>
+			<class name="com.themoviedb.movietest.Validating_Search_Test"></class>
+		</classes>
+	</test>
+</suite>

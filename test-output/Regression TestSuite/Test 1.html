@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>TestNG:  Test 1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test 1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 23 02:28:14 MST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39431 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_SessionID_For_Delete_Test.Neg_Case_SessionID_For_Delete()'><b>Neg_Case_SessionID_For_Delete</b><br>Test class: com.themoviedb.movietest.Neg_Case_SessionID_For_Delete_Test</td>
+<td></td>
+<td>2</td>
+<td>com.themoviedb.movietest.Neg_Case_SessionID_For_Delete_Test@369f73a2</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test.Neg_Case_Wrong_ApiKey()'><b>Neg_Case_Wrong_ApiKey</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test<br>Parameters: 501, 3a640701a8d3621019</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test@1f28c152</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test.Neg_Case_Wrong_ApiKey()'><b>Neg_Case_Wrong_ApiKey</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test<br>Parameters: 502, 234234234234</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test@1f28c152</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test.Neg_Case_Wrong_ApiKey()'><b>Neg_Case_Wrong_ApiKey</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test<br>Parameters: 503, BlackPanther</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test@1f28c152</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test.Neg_Case_Wrong_ApiKey()'><b>Neg_Case_Wrong_ApiKey</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test<br>Parameters: 504, S#$%#$%#$%#@#</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test@1f28c152</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test.Neg_Case_Wrong_ApiKey()'><b>Neg_Case_Wrong_ApiKey</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test<br>Parameters: 505, DEDWDAS#$#@$345345</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test@1f28c152</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test.Neg_Case_Wrong_ApiKey()'><b>Neg_Case_Wrong_ApiKey</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test<br>Parameters: 506, </td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_ApiKey_Test@1f28c152</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test.Neg_Case_Wrong_Rating()'><b>Neg_Case_Wrong_Rating</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test<br>Parameters: 3, 7.1</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test@7d907bac</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test.Neg_Case_Wrong_Rating()'><b>Neg_Case_Wrong_Rating</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test<br>Parameters: 5, 11</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test@7d907bac</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test.Neg_Case_Wrong_Rating()'><b>Neg_Case_Wrong_Rating</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test<br>Parameters: 12, %#$</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test@7d907bac</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test.Neg_Case_Wrong_Rating()'><b>Neg_Case_Wrong_Rating</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test<br>Parameters: 14, 5.4a</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test@7d907bac</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test.Neg_Case_Wrong_Rating()'><b>Neg_Case_Wrong_Rating</b><br>Test class: com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test<br>Parameters: 17, 7.</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Neg_Case_Wrong_Rating_Test@7d907bac</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Post_Call_Movie_Rating_Test.Post_Call_Movie_Rating()'><b>Post_Call_Movie_Rating</b><br>Test class: com.themoviedb.movietest.Post_Call_Movie_Rating_Test<br>Parameters: 3, 7.5</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Post_Call_Movie_Rating_Test@7791a895</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Post_Call_Movie_Rating_Test.Post_Call_Movie_Rating()'><b>Post_Call_Movie_Rating</b><br>Test class: com.themoviedb.movietest.Post_Call_Movie_Rating_Test<br>Parameters: 5, 8.5</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Post_Call_Movie_Rating_Test@7791a895</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Post_Call_Movie_Rating_Test.Post_Call_Movie_Rating()'><b>Post_Call_Movie_Rating</b><br>Test class: com.themoviedb.movietest.Post_Call_Movie_Rating_Test<br>Parameters: 12, 9</td>
+<td></td>
+<td>1</td>
+<td>com.themoviedb.movietest.Post_Call_Movie_Rating_Test@7791a895</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Post_Call_Movie_Rating_Test.Post_Call_Movie_Rating()'><b>Post_Call_Movie_Rating</b><br>Test class: com.themoviedb.movietest.Post_Call_Movie_Rating_Test<br>Parameters: 14, 9.5</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Post_Call_Movie_Rating_Test@7791a895</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Post_Call_Movie_Rating_Test.Post_Call_Movie_Rating()'><b>Post_Call_Movie_Rating</b><br>Test class: com.themoviedb.movietest.Post_Call_Movie_Rating_Test<br>Parameters: 17, 7.5</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Post_Call_Movie_Rating_Test@7791a895</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validate_Network_with_id_Test.Validate_Network()'><b>Validate_Network</b><br>Test class: com.themoviedb.movietest.Validate_Network_with_id_Test</td>
+<td></td>
+<td>3</td>
+<td>com.themoviedb.movietest.Validate_Network_with_id_Test@3a5ed7a6</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validate_People_Details_Test.Validate_People_Details()'><b>Validate_People_Details</b><br>Test class: com.themoviedb.movietest.Validate_People_Details_Test</td>
+<td></td>
+<td>2</td>
+<td>com.themoviedb.movietest.Validate_People_Details_Test@6325a3ee</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validate_Trending_Test.Validate_Trending_feature()'><b>Validate_Trending_feature</b><br>Test class: com.themoviedb.movietest.Validate_Trending_Test</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Validate_Trending_Test@1d16f93d</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Find_Movie_ExternalID_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Find_Movie_ExternalID_Test<br>Parameters: tt1856101, Blade Runner 2049</td>
+<td></td>
+<td>2</td>
+<td>com.themoviedb.movietest.Find_Movie_ExternalID_Test@5a8e6209</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Find_Movie_ExternalID_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Find_Movie_ExternalID_Test<br>Parameters: tt3501632, Thor: Ragnarok</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Find_Movie_ExternalID_Test@5a8e6209</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Find_Movie_ExternalID_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Find_Movie_ExternalID_Test<br>Parameters: tt1825683, Black Panther</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Find_Movie_ExternalID_Test@5a8e6209</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Find_Movie_ExternalID_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Find_Movie_ExternalID_Test<br>Parameters: tt2250912, Spider-Man: Homecoming</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Find_Movie_ExternalID_Test@5a8e6209</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Find_Movie_ExternalID_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Find_Movie_ExternalID_Test<br>Parameters: tt2395427, Avengers: Age of Ultron</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Find_Movie_ExternalID_Test@5a8e6209</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Find_Movie_ExternalID_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Find_Movie_ExternalID_Test<br>Parameters: tt0458339, Captain America: The First Avenger</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Find_Movie_ExternalID_Test@5a8e6209</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Get_Details_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Get_Details_Test<br>Parameters: 2, Ariel</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Get_Details_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Get_Details_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Get_Details_Test<br>Parameters: 3, Varjoja paratiisissa</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Get_Details_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Get_Details_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Get_Details_Test<br>Parameters: 5, Four Rooms</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Get_Details_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Get_Details_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Get_Details_Test<br>Parameters: 6, Judgment Night</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Get_Details_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Get_Details_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Get_Details_Test<br>Parameters: 9, Sonntag im August</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Get_Details_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Get_Details_Test.checkDataforMovieID()'><b>checkDataforMovieID</b><br>Test class: com.themoviedb.movietest.Get_Details_Test<br>Parameters: 12, Finding Nemo</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Get_Details_Test@4b4523f8</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Get_Post_Delete_Rating_Test.validateSearch()'><b>validateSearch</b><br>Test class: com.themoviedb.movietest.Get_Post_Delete_Rating_Test</td>
+<td></td>
+<td>8</td>
+<td>com.themoviedb.movietest.Get_Post_Delete_Rating_Test@731a74c</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validating_Search_Test.validateSearch()'><b>validateSearch</b><br>Test class: com.themoviedb.movietest.Validating_Search_Test<br>Parameters: This Is Us</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Validating_Search_Test@67b92f0a</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validating_Search_Test.validateSearch()'><b>validateSearch</b><br>Test class: com.themoviedb.movietest.Validating_Search_Test<br>Parameters: The Typist</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Validating_Search_Test@67b92f0a</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validating_Search_Test.validateSearch()'><b>validateSearch</b><br>Test class: com.themoviedb.movietest.Validating_Search_Test<br>Parameters: A Million Little Things</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Validating_Search_Test@67b92f0a</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validating_Search_Test.validateSearch()'><b>validateSearch</b><br>Test class: com.themoviedb.movietest.Validating_Search_Test<br>Parameters: M*A*S*H</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Validating_Search_Test@67b92f0a</td></tr>
+<tr>
+<td title='com.themoviedb.movietest.Validating_Search_Test.validateSearch()'><b>validateSearch</b><br>Test class: com.themoviedb.movietest.Validating_Search_Test<br>Parameters: 8 x 45</td>
+<td></td>
+<td>0</td>
+<td>com.themoviedb.movietest.Validating_Search_Test@67b92f0a</td></tr>
+</table><p>
+</body>
+</html>

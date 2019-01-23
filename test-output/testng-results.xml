@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4513" started-at="2019-01-23T09:29:23Z" finished-at="2019-01-23T09:29:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4513" started-at="2019-01-23T09:29:23Z" finished-at="2019-01-23T09:29:27Z">
+      <class name="com.themoviedb.movietest.Find_Movie_ExternalID_Test">
+        <test-method status="PASS" signature="getEnvironmentData()[pri:0, instance:com.themoviedb.movietest.Find_Movie_ExternalID_Test@18eed359]" name="getEnvironmentData" is-config="true" duration-ms="9" started-at="2019-01-23T09:29:23Z" finished-at="2019-01-23T09:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvironmentData -->
+        <test-method status="PASS" signature="checkDataforMovieID(java.lang.String, java.lang.String)[pri:0, instance:com.themoviedb.movietest.Find_Movie_ExternalID_Test@18eed359]" name="checkDataforMovieID" duration-ms="2280" started-at="2019-01-23T09:29:23Z" data-provider="FindMovie" finished-at="2019-01-23T09:29:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt1856101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blade Runner 2049]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataforMovieID -->
+        <test-method status="PASS" signature="checkDataforMovieID(java.lang.String, java.lang.String)[pri:0, instance:com.themoviedb.movietest.Find_Movie_ExternalID_Test@18eed359]" name="checkDataforMovieID" duration-ms="429" started-at="2019-01-23T09:29:25Z" data-provider="FindMovie" finished-at="2019-01-23T09:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt3501632]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thor: Ragnarok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataforMovieID -->
+        <test-method status="PASS" signature="checkDataforMovieID(java.lang.String, java.lang.String)[pri:0, instance:com.themoviedb.movietest.Find_Movie_ExternalID_Test@18eed359]" name="checkDataforMovieID" duration-ms="423" started-at="2019-01-23T09:29:26Z" data-provider="FindMovie" finished-at="2019-01-23T09:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt1825683]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Black Panther]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataforMovieID -->
+        <test-method status="PASS" signature="checkDataforMovieID(java.lang.String, java.lang.String)[pri:0, instance:com.themoviedb.movietest.Find_Movie_ExternalID_Test@18eed359]" name="checkDataforMovieID" duration-ms="469" started-at="2019-01-23T09:29:26Z" data-provider="FindMovie" finished-at="2019-01-23T09:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt2250912]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spider-Man: Homecoming]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataforMovieID -->
+        <test-method status="PASS" signature="checkDataforMovieID(java.lang.String, java.lang.String)[pri:0, instance:com.themoviedb.movietest.Find_Movie_ExternalID_Test@18eed359]" name="checkDataforMovieID" duration-ms="454" started-at="2019-01-23T09:29:26Z" data-provider="FindMovie" finished-at="2019-01-23T09:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt2395427]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Avengers: Age of Ultron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataforMovieID -->
+        <test-method status="PASS" signature="checkDataforMovieID(java.lang.String, java.lang.String)[pri:0, instance:com.themoviedb.movietest.Find_Movie_ExternalID_Test@18eed359]" name="checkDataforMovieID" duration-ms="420" started-at="2019-01-23T09:29:27Z" data-provider="FindMovie" finished-at="2019-01-23T09:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt0458339]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Captain America: The First Avenger]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataforMovieID -->
+      </class> <!-- com.themoviedb.movietest.Find_Movie_ExternalID_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
